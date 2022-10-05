@@ -6,3 +6,12 @@ img {
 p {
     font-family: Century;
 }
+
+.block::before{
+    background-color: rgba(0, 0, 0, .50);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
